@@ -5,13 +5,13 @@
 }
 
 body {
-    position:relative;
     font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
 header {
     position:fixed;
+    background-color: white;
     top:0;
     right:0;
     width:100%;
@@ -42,7 +42,7 @@ header {
     justify-content:flex-start;
 }
 
-ul {
+header ul {
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -52,7 +52,7 @@ ul {
     font-weight: 400;
 }
 
-li {
+header li {
     display:inline-block;
     margin-right: 35px;
     line-height: 50px;
@@ -72,10 +72,22 @@ li a:focus {
 
 
 /* MAIN */
+
+main {
+    margin-top: 200px;
+}
 .container {
-    width:80%;
+    width:74%;
     margin:0 auto;
-    
+}
+
+.question {
+    font-size: 24px;
+    margin:20px 0;
+}
+
+.answer {
+    font-size: 15px;
 }
     
 
